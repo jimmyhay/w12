@@ -1,0 +1,39 @@
+.carousel-container {
+  // height: 234px;
+  width: 1836px;
+  opacity: 0;
+  position: relative;
+  left: -6px;
+  // white-space: nowrap;
+
+  ul {
+    height: 246px;
+    list-style-type: none;
+    margin: 0; padding: 0;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+    li {
+      display: inline-block;
+      padding-right: 10px;
+      img {
+        //url(#clipping);
+      }
+    }
+  }
+}
+
+.carousel-first {
+  margin-top: -5px;
+}
+
+.carousel-title {
+  padding-bottom: 21px;
+  position: relative;
+  left: 6px;
+}
+
+.svg-defs {
+  position: absolute;
+}

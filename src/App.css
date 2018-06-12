@@ -1,0 +1,135 @@
+.hero-container {
+  width: 100%;
+  height: 100%;
+  background-color: pink; }
+
+.hero-image, .hero-overlay {
+  position: fixed; }
+
+.content-container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 1080px;
+  margin-left: 90px;
+  margin-top: 80px;
+  color: #EBEBEB;
+  font-size: 24px; }
+
+.content-header {
+  padding-bottom: 101px;
+  font-size: 48px;
+  opacity: 0;
+  position: relative;
+  top: 5px; }
+
+.content-header-alt {
+  padding-bottom: 5px; }
+
+.content-show-info {
+  position: relative;
+  padding-top: 18px;
+  padding-bottom: 20px;
+  opacity: 0;
+  top: 5px; }
+
+.content-show-info-header {
+  padding-bottom: 9px;
+  font-size: 36px; }
+
+.content-show-info-header-alt {
+  padding-bottom: 24px; }
+
+.content-show-info-details {
+  padding-bottom: 19px;
+  color: #c5c4c4; }
+
+.content-show-info-details-alt {
+  padding-bottom: 70px; }
+
+.content-show-info-description {
+  width: 848px; }
+
+.content-extras {
+  color: #bfbebe;
+  opacity: 0;
+  position: relative;
+  top: 5px; }
+  .content-extras ul {
+    list-style-type: none;
+    padding-left: 0px; }
+    .content-extras ul li {
+      padding-bottom: 25px; }
+
+.carousel-container {
+  width: 1836px;
+  opacity: 0;
+  position: relative;
+  left: -6px; }
+  .carousel-container ul {
+    height: 246px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden; }
+    .carousel-container ul li {
+      display: inline-block;
+      padding-right: 10px; }
+
+.carousel-first {
+  margin-top: -5px; }
+
+.carousel-title {
+  padding-bottom: 21px;
+  position: relative;
+  left: 6px; }
+
+.svg-defs {
+  position: absolute; }
+
+.carousel-image-container {
+  position: relative;
+  width: 428px;
+  height: 246px; }
+
+.carousel-image-background {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 428px;
+  height: 246px;
+  background-color: white;
+  visibility: hidden; }
+
+.carousel-svg {
+  position: absolute;
+  top: 6px;
+  left: 6px; }
+
+.screenwipe-container {
+  width: 1920px;
+  height: 1080px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  pointer-events: none; }
+
+.screenwipe {
+  width: 1920px;
+  height: 1080px;
+  background-color: grey;
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+
+.App {
+  text-align: center; }
+
+.app-container {
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden; }

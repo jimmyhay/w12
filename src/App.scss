@@ -1,0 +1,17 @@
+@import 'scss/components/_hero.scss';
+@import 'scss/components/_content.scss';
+@import 'scss/components/_carousel.scss';
+@import 'scss/components/_carouselImage.scss';
+@import 'scss/components/_screenwipe.scss';
+
+.App {
+  text-align: center;
+}
+
+.app-container {
+  // background-color: yellow;
+  width: 1920px;
+  height: 1080px;
+  // clip: rect(0px, 0px, 1920px, 1080px);
+  overflow:hidden;
+}

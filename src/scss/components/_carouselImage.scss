@@ -1,0 +1,17 @@
+.carousel-image-container {
+  position: relative;
+  width: 428px;
+  height: 246px;
+}
+
+.carousel-image-background {
+  position: relative; top: 0px; left: 0px;
+  width: 428px;
+  height: 246px;
+  background-color: white;
+  visibility: hidden;
+}
+
+.carousel-svg {
+  position: absolute; top: 6px; left: 6px;
+}
